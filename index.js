@@ -1,7 +1,9 @@
 // Write your solution here!
 
+//Creating a variable called cats
 const cats = ["Milo", "Otis", "Garfield"]
 
+// the function that resets the value of cats after each function is called
 function beforeEach() {
     cats.length = 0;
     cats.push('Milo', 'Otis', 'Garfield');
